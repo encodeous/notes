@@ -93,55 +93,34 @@ If the number of edges is **less** then the number of vertices - 1, the graph is
 
 #### Adjacency Matrix
 
-|k|1|2|3|4|5|
-|-|-|-|-|-|-|
-|1|0|1|0|1|0|
-|2|1|0|0|0|1|
-|3|0|0|0|1|0|
-|4|1|0|1|0|0|
-|5|0|1|0|0|0|
+| k   | 1   | 2   | 3   | 4   | 5   |
+| --- | --- | --- | --- | --- | --- |
+| 1   | 0   | 1   | 0   | 1   | 0   |
+| 2   | 1   | 0   | 0   | 0   | 1   |
+| 3   | 0   | 0   | 0   | 1   | 0   |
+| 4   | 1   | 0   | 1   | 0   | 0   |
+| 5   | 0   | 1   | 0   | 0   | 0   |
 
-In this undirected adjacency matrix *k*, we can see that:
+The indegree of a given Vertex i, is the sum of row i of the adj matrix.
 
-1 is connected to 2,
-1 is connected to 4,
-1 is connected to 5,
+The outdegree is the sum of column i of the adj matrix.
 
+#### Adjacency Lists
 
-n = 5
+The space complexity of the Adjacency matrix is n<sup>2</sup>
 
-e = n(n-1)/2
+We can solve this by using an adjacency **list**.
 
-storing graphs,
+**Idea:**
 
-Adjacent Matrix
+- For each vertex vi, use a dynamic sized list to store all adjacent vertices with vi, which is referred as vi’s edge list
 
-Adjacent List
+Here is the *same* graph, but with an **adjacency list**.
 
-Adj matrix
+**Vertex 1**: [2,4]
 
+**Vertex 2**: [1,5]
 
+**Vertex 3**: [4]
 
-Undirected graph has a symmetrical adjacency matrix
-
-Degree = sum of non 0's in a row in the adjacency matrix
-
-to check if v is connected to k, just check if adjacency[v][k] is not 0
-
-Indegree = sum of non 0's in a column in adjacency matrix
-
-adjacency matrix takes v^2 memory
-
-We can use an Adj list
-
-Vertex 1: [] <-- List
-
-Vertex 2: [] <-- List
-
-Vertex 3: [] <-- List
-
-Vertex 4: [] <-- List
-
-to connect 4 with 1, just add 4 to 1, and 1 to 4
-
-to get the degree from an adj list, just get the length
+**Vertex 4**: [1,3]
