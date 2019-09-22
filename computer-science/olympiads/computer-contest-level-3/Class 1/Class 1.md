@@ -1,3 +1,5 @@
+# Olympiads School Computer Contest level 3 - Class 1
+
 # Introduction to Graphs
 
 ## Seven Bridges of Königsberg
@@ -16,7 +18,7 @@ on the **same** vertex.
 
 ## Graphs
 
-#### What is a Graph
+### What is a Graph
 
 A graph is composed of **vertices** and **edges**.
 
@@ -124,3 +126,82 @@ Here is the *same* graph, but with an **adjacency list**.
 **Vertex 3**: [4]
 
 **Vertex 4**: [1,3]
+
+To store weights in the adjacency list, we can create a custom object.
+
+**Vertex 1**: [(v=2,w=1),(v=4,w=1)]
+
+**Vertex 2**: [(v=1,w=1),(v=5,w=1)]
+
+**Vertex 3**: [(v=4,w=1)]
+
+**Vertex 4**: [(v=1,w=1),(v=3,w=1)]
+
+## Graph Search / Traversal
+
+- DFS
+  - When you have a path, search it until you reach the end
+- BFS
+  - Start on every single path at once, advance one each time
+- Topological Sorting
+
+When you visit a vertex, you shouldn't visit it again to prevent an infinite loop.
+
+### BFS and DFS
+
+#### BFS
+
+1. Start from a vertex, mark it as visited, depth 0 (or 1 more than the depth of the previous vertex, if this is the first vertex, the previous depth is -1).
+2. Find all the unvisited neighbours of the vertex, mark them visited and level 1 (or 1 more than the depth of the previous vertex).
+3. For each of the neighbours, repeat the steps until no more vertices can be visited.
+
+The minimum length of a vertex to another vertex, is the minimum depth between each one.
+
+```java
+BFS Implementation in JAVA.
+// BFS with Adjacency Matrix on an unweighted graph.
+    public static int[] BFS(int n, int src, int[][] matrix){
+        boolean[] visited = new boolean[n];
+        int[] dist = new int[n];
+        Arrays.fill(dist,-1);
+        dist[src] = 0;
+        visited[src] = true;
+        Queue<Integer> visitQueue = new ArrayDeque<>();
+        visitQueue.add(src);
+        while(!visitQueue.isEmpty()){
+            int cur = visitQueue.poll();
+            for(int v = 0; v< n; v++){
+                if(!visited[v] && matrix[cur][v]==1){
+                    visitQueue.add(v);
+                    visited[v] = true;
+                    dist[v] = dist[cur]+1;
+                }
+            }
+        }
+        return dist; // returns the depth
+    }
+```
+
+```java
+BFS Implementation in JAVA.
+// BFS with Adjacency List on an unweighted graph.
+        boolean[] visited = new boolean[n];
+        int[] dist = new int[n];
+        Arrays.fill(dist,-1);
+        dist[src] = 0;
+        visited[src] = true;
+        Queue<Integer> visitQueue = new ArrayDeque<>();
+        visitQueue.add(src);
+        while(!visitQueue.isEmpty()){
+            int cur = visitQueue.poll();
+            for(int v : adjList[cur]){
+                if(!visited[v]){
+                    visitQueue.add(v);
+                    visited[v] = true;
+                    dist[v] = dist[cur]+1;
+                }
+            }
+        }
+        return dist; // returns the depth
+    }
+```
