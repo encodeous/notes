@@ -6,7 +6,7 @@
 
 - Depth-first search uses the same idea as backtracking.
   - Exhaustively searching all possibilities by advancing if possible.
-  - Backing up as soon as there is an unexplored vertex.
+  - Backing up as soon as there is no more unexplored vertices.
 
 The path a node is visited by is not always the shortest.
 
@@ -25,3 +25,4 @@ DFS can detect cycles:
     - when the state = 1: visited, in stack
     - when the sate = 2: visited, not in stack
   - when we backtrack, we set the visited nodes to 2.
+
