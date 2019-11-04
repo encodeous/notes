@@ -1,8 +1,10 @@
-# 
+# Trees
 
-## Trees
+n-1 edges
 
-### The center of the tree
+only 1 path between 2 vertices
+
+## The center of the tree
 
  A node in the tree, and from it, generates the shortest path from the node to every other node. (Minimizing the height) A tree can have at most 2 centers, and the center is always on the diameter path.
 
@@ -24,10 +26,14 @@ v2 `6 5 4 3 2 1`
 
 The maximal distance is the max of the 2 arrays at the index of the node.
 
-Finding the Diameter: Start from any node, and find the distance to that node. One of the diameter points is the largest distance.
+**Finding the Diameter:** Start from any node, find the maximal distance node. From that node, find the other maximal distance node. The 2 nodes are the diameter nodes.
 
-(1) Starting from any node, to visit every node in the tree, and back you will visit 2*e edges.
+Diameter's property: the farthest node from any given node will be a diameter node.
 
-(2) Start from a specific node, visit every node once, and no need to return back to the start position, you will visit 2*e - (the longest distance from the start node).
+Things to notice
 
-(3) Start from any node visit every node once, and no need to return back, the minimum travel cost is 2*e - diameter.
+1. Starting from any node, to visit every node in the tree, and back you will visit 2*e edges.
+
+2. Start from a specific node, visit every node once, and no need to return back to the start position, you will visit 2*e - (the longest distance from the start node).
+
+3. Start from any node visit every node once, and no need to return back, the minimum travel cost is 2*e - diameter.
