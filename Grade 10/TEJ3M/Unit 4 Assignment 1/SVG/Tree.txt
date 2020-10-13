@@ -1,0 +1,133 @@
+Start
+A Walk in the park... Or so it seems
+You feel tired after sitting at home for the entire day due to online classes. 
+So you decide to go take a walk in the park. The park is very large, and there are many parts you can visit. You first walk over to:
+You walk over to the playground
+You keep on walking, you just want to stretch your legs.
+You feel like you want to explore someplace you have never 
+been before, so you venture to the woods
+You feel a drop of rain on your face, it is better to go home and
+get an umbrella.
+1
+2
+3
+4
+5
+6
+7
+8
+4
+23
+12
+13
+15
+16
+23
+19
+20
+5
+23
+3
+4
+3
+2
+4
+6
+12
+5
+58
+5
+65
+65
+74
+75
+The playground is deserted:
+You head back where you came from
+You notice a piece of note on the ground and pick it up.
+The note reads:
+In the haunted forest, there lies a magical secret...
+You head to the haunted forest...
+This note must be some kid fooling around, theres nothing in the
+forest and you should just leave the paper on the ground
+You look up, there— a sign reading “Playground closed do to coronavius” You head back to where you came from
+The moment you take a step, thunder breaks out, and you
+knew that you should have went home to get your umbrella
+You dash home for cover
+You head towards those trees 
+hoping that you wont get wet
+Who cares about getting a little 
+wet anyways! Just keep taking 
+your relxing walk
+5
+You feel a buzz in your pocket. It was your phone— you check your phone
+You look at your phone, there— was a weather warning. It read: 
+“Warning! Severe rain and dangerous winds expected!”
+You go home for cover
+You walk around like a fool, who 
+cares about some rain and wind?
+In an instant, a bolt of lightning came
+ down from the sky and you die
+Those weather reports are never accurate! 
+You think to yourself. Just keep walking...
+You haven’t walked for 30 seconds, and you hear a
+deafening crash and you see a distant lightning bolt
+You look left, and right. The only thing that can
+keep you dry from the rain are those trees
+You remember that you haven’t taken a shower in 
+over 4 years. This rain will clean you up real good!
+There is a park gazebo not too far from here... maybe 
+you can sprint there to wait for the rain to pass...
+Under the roof, you sit and wait for the rain to pass... 
+You hear distant rumbles of lightning, and the wind
+ is blowing through your hair
+After sitting for a while, you decide to check your phone.
+You keep 
+waiting...
+This rain never seems to end... 
+Maybe you should head home.
+You arrive at the woods. you look around...
+This place looks haunted. 
+The rain starts pouring... You dont want to 
+get wet, so you stay in the same place
+unbeknownst to you... behind you there was a 
+bear, it was too late, and the bear had killed you
+You look down, and to your 
+surprise, you see bear prints. 
+You decide to follow them.
+These prints lead to a concealed cave.
+In the cave you see glowing rocks.
+You walk in the cave to explore. 
+No one has been here for years...
+To your horror... At the mouth of the cave, came 
+a bone chilling roar, and the bear charged at you...
+The bear might come back at any second! 
+So you decide to go back to the safety of your home.
+There is a rustle above your head... Some kuind of animal is moving 
+about ontop of you, so you decide to climb up the tree and check
+You climb onto the tree to find a squirrel on the top. Could the squirrel have made that sound?
+You decide to climb higher to find out...
+You stumble and fall, in a few days, you wake up in a hospital bed
+At last, you have reached your front door... You reach in your
+pocket, but to your dismay, your keys are missing
+You go back to the park to search for the 
+key, maybe you dropped it somewhere
+You try to pry open a 
+hwindow to get in.
+Just as you started prying the window,
+you hear a siren behind you.
+It was a police officer.
+You explain to the officer that you 
+are locked out of your home
+You keep on prying...
+After a while the nice officer gets you in your
+cozy home... Wow that was an adventure.
+The officer saw you trying to break into a house. Despite
+saying that this was your own house, they arrest you.
+You look around to see if a window or door is unlocked
+To your surprise, the backyard door was unlocked,
+and you walk into your cozy home.
+What an adventure you had
+That must have been a squirrel, 
+so you decide to climb down the tree
+Adam Chen
+Nodes with no paths pointing out represent endings
